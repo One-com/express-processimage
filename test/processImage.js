@@ -8,7 +8,7 @@ var express = require('express'),
     Stream = require('stream'),
     processImage = require('../lib/processImage'),
     root = pathModule.resolve(__dirname, '..', 'testdata') + '/',
-    sharp = require('sharp');
+    sharp = require('@one.com/sharp');
 
 describe('express-processimage', function () {
     var config;

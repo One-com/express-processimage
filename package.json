@@ -1,5 +1,5 @@
 {
-  "name": "express-processimage",
+  "name": "@one.com/express-processimage",
   "version": "5.10.1",
   "description": "Express middleware that processes served images according to the query string",
   "main": "lib/processImage.js",
@@ -24,7 +24,7 @@
     "passerror": "1.1.1",
     "pngcrush": "1.0.0",
     "pngquant": "1.0.0",
-    "sharp": "git://github.com/One-com/sharp.git#v0.15",
+    "@one.com/sharp": "0.15.0",
     "underscore": "1.8.3"
   },
   "optionalDependencies": {
